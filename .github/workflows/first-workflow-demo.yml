@@ -1,0 +1,17 @@
+name: first workflow demo 
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print the greeting
+        run: echo "Hello World!.."
+      - name: print bye greeting
+        run: echo "Bye Bye.. See you soon"
+  
+    
+    
+  
+
+  
+  
